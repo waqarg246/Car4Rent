@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "183628201474",
+    "firebase_url": "https://database-a1c49.firebaseio.com",
+    "project_id": "database-a1c49",
+    "storage_bucket": "database-a1c49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183628201474:android:6d609eb51076901e",
+        "android_client_info": {
+          "package_name": "com.example.shahbaz.car4rent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183628201474-us811t7uo4sdsubvqqnu3321mhmk725f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shahbaz.car4rent",
+            "certificate_hash": "a20066f90ed5728d8809e11749f267f6f0432dce"
+          }
+        },
+        {
+          "client_id": "183628201474-mn9gqfllm4ibvhmieqamcsvfa4iiu8hi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOrpmZLtg6d8AGK2OZWDENMm8YOqPt4UA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183628201474-mn9gqfllm4ibvhmieqamcsvfa4iiu8hi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183628201474:android:b1bd2d54dbc0d328",
+        "android_client_info": {
+          "package_name": "com.phantomdevelopers.shahbazhaider.database"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183628201474-ohaa9m7e51s4u9s5gh2plqbff50np6tv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.phantomdevelopers.shahbazhaider.database",
+            "certificate_hash": "a20066f90ed5728d8809e11749f267f6f0432dce"
+          }
+        },
+        {
+          "client_id": "183628201474-mn9gqfllm4ibvhmieqamcsvfa4iiu8hi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOrpmZLtg6d8AGK2OZWDENMm8YOqPt4UA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183628201474-mn9gqfllm4ibvhmieqamcsvfa4iiu8hi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

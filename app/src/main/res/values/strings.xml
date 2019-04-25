@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Book My Car</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="MapApi"> AIzaSyBQop_cUTP-6VYXcOzStWJfaouonmAI06g</string>
+</resources>

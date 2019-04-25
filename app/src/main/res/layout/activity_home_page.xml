@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePageActivity"
+    android:id="@+id/drawer"
+    android:background="@drawable/bggradient"
+  >
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+       <ScrollView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical"
+               android:gravity="center"
+               >
+
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="80dp"
+                   android:gravity="center">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+
+                       android:layout_marginTop="0dp"
+                       android:text="Welcome.."
+                       android:textColor="#ffffff"
+                       android:textSize="20sp"
+                       android:textStyle="bold"/>
+
+
+
+
+               </RelativeLayout>
+
+               <TextView
+                   android:id="@+id/textViewbookride"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentTop="true"
+                   android:layout_centerHorizontal="true"
+                   android:layout_marginTop="10dp"
+                   android:textColor="#ffffff"
+                   android:text="Select Your Destination Points Here"
+                   android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                   android:textSize="20sp"
+                 />
+
+               <RelativeLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content">
+                   <TextView
+                       android:id="@+id/textvdistance"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignParentTop="true"
+                       android:layout_centerHorizontal="true"
+                       android:layout_marginTop="20dp"
+                       android:textColor="#ffffff"
+                       android:hint="Distance :-"
+                       android:textColorHint="#ffffff"
+                       android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                       android:textSize="18sp"
+                       android:textStyle="bold" />
+
+               </RelativeLayout>
+
+
+               <LinearLayout
+                   android:id="@+id/bookingmenu"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+                   android:gravity="center">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignParentTop="true"
+                       android:layout_centerHorizontal="true"
+                       android:layout_marginTop="20dp"
+                       android:textColor="#ffffff"
+                       android:text="Click below to Select your Car"
+                       android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                       android:textSize="17sp"
+                       android:textStyle="bold" />
+                   <ImageView
+                       android:id="@+id/imageArea"
+                       android:layout_width="130dp"
+                       android:layout_height="110dp"
+                       android:layout_marginTop="10dp"
+                       android:scaleType="centerCrop"
+                       android:gravity="center"
+                       android:background="@drawable/buttonstylebg"
+                       >
+
+                   </ImageView>
+
+                   <TextView
+                       android:id="@+id/tv_note"
+                       android:paddingLeft="50dp"
+                       android:paddingRight="40dp"
+                       android:layout_gravity="center"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignParentTop="true"
+                       android:layout_centerHorizontal="true"
+                       android:layout_marginTop="10dp"
+                       android:textColor="#ffffff"
+                       android:text="Note :- All Cars are available with Driver but without Fuel."
+                       android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                       android:textSize="15sp"
+                       />
+
+
+                   <TextView
+                       android:id="@+id/textViewprice"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignParentTop="true"
+                       android:layout_centerHorizontal="true"
+                       android:layout_marginTop="10dp"
+                       android:textColor="#ffffff"
+                       android:hint="Fare :-"
+                       android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                       android:textSize="18sp"
+
+                       android:textColorHint="#ffffff"
+                       android:textStyle="bold" />
+
+                   <Button
+                       android:id="@+id/buttongo"
+                       android:layout_width="150dp"
+                       android:layout_height="wrap_content"
+                       android:layout_marginBottom="10dp"
+                       android:layout_marginTop="30dp"
+                       android:background="@drawable/button_confirm-your-booking"
+                       android:text=" Confirm Your Booking"
+                       android:textColor="#ffffff" />
+
+
+
+               </LinearLayout>
+
+
+           </LinearLayout>
+       </ScrollView>
+   </LinearLayout>
+
+
+
+
+
+
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav"
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        app:menu="@menu/drawermenu"
+        android:layout_gravity="start"
+        android:background="#01579b"
+        app:itemIconTint="#ffffff"
+        app:itemTextColor="#ffffff"
+        app:headerLayout="@layout/navheader">
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/dprofile"
+        android:title="Profile"
+        android:icon="@drawable/ic_person_black_24dp"
+        />
+    <item android:id="@+id/dhome"
+        android:title="Home"
+        android:icon="@drawable/ic_home_black_24dp"
+        />
+
+
+ 
+    <item android:id="@+id/dcontactus"
+        android:title="Contact Us"
+        android:icon="@drawable/ic_perm_contact_calendar_black_24dp"
+
+
+        />
+    <item android:id="@+id/dlogout"
+        android:title="Logout"
+        android:icon="@drawable/ic_phonelink_lock_black_24dp"
+
+        />
+
+
+</menu>
